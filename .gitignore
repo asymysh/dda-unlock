@@ -1,0 +1,11 @@
+﻿# Private / homelab-specific (tracked in separate private repo via submodule)
+HOMELAB-CONTEXT.md
+reference/
+scripts/homelab/
+
+# Runtime artifacts (never commit)
+*.log
+*.csv
+*.pid
+flip-log.txt
+bcd-backup-*
